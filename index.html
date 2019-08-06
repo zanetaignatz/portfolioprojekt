@@ -9,8 +9,6 @@
         <title>Portfolio</title>
     </head>
     <body>
-        <div class="nav-wrapper">
-
             <nav class="flex-nav">
                 <ul>
                     <li><a href="#aboutme">About me</a></li>
@@ -19,20 +17,19 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>  
-           </div>
-
         <header>
            <h1>Welcome</h1>
         </header>
 
         <div class="wrapper">
                 <div class="box box1">
-                    <h2 class="help">I am happy to help you with any problem!<h2>
+                    <h2 class="help">I am happy to help you with any problem!</h2>
                         <div class="button">
                     <a href="#"><button class="contact">Contact me!</button></a> <a href="#"><button class="cv">Check my CV!</button></a>
                         </div>
                 </div>
-                <div id="aboutme" class="box boxa"><h2>About me</h2>
+                <section id="aboutme">
+                <div class="box boxa"><h2>About me</h2>
                 </div>
             <div class="box box2">
                 <div class="me">
@@ -48,22 +45,24 @@
                  </p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             </div>
-            <div id="skills" class="box boxa"><h2>Skills</h2>
-            </div>
+            </section>
+            <section id="skills"> 
+                <div class="box boxa"><h2>Skills</h2></div>
             <div class="box box4">
-                <img src="img/html.png" alt="ikona html" class="iconskills"><br>
+                <img class="imgskills nothover" src="img/html.png" alt="ikona html"><br>
                 <p class="pskills">HTML</p>
             </div>
             <div class="box box5">
-                <img src="img/css.png" alt="ikona css" class="iconskills"><br>
+                <img class="imgskills nothover" src="img/css.png" alt="ikona css"><br>
                 <p class="pskills">CSS</p>
             </div>
             <div class="box box6">
-                <img src="img/js.png" alt="ikona js" class="iconskills"><br>
+                <img class="imgskills nothover" src="img/js.png" alt="ikona js"><br>
                 <p class="pskills">JavaScript</p>
             </div>
-            <div id="portfolio" class="box boxa"><h2>Portfolio</h2>
-            </div>
+            </section>
+            <section id="portfolio">
+            <div class="box boxa"><h2>Portfolio</h2></div>
             <div class="box box7">
                 <div class="projects">
                 <h4>Projects</h4>
@@ -87,7 +86,9 @@
             <div class="box box12">
                 <a href="#"><img src="img/6.jpg" alt="monitor komputera"></a>
             </div>
-            <div id="contact" class="box boxa"><h2>Contact</h2>
+            </section>
+            <section id="contact">
+            <div class="box boxa"><h2>Contact</h2>
             </div>
             <div class="box box13">
                 <p class="description">Please describe your question.<br>
@@ -119,6 +120,7 @@
                     <input type="submit" value="Send">
                 </form>
             </div>
+            </section>  
             
         </div>
 

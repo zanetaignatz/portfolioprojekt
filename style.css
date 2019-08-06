@@ -10,6 +10,7 @@ body{
 
 .flex-nav a{
     color: rgb(20, 19, 19);
+    font-family: Raleway, sans-serif;
     font-weight: 100;
     letter-spacing: 2px;
     text-decoration: none;
@@ -20,21 +21,17 @@ body{
     text-align: center;
     transition: all 0.5s;
     background: rgb(255, 214, 0);
-    
-    
 }
 
 .flex-nav a:hover{
     background: rgb(255, 214, 0, 0.7);
 }
 
-.nav-wrapper{
+.flex-nav{
     max-width: 1000px;
     margin: 0 auto;
     padding: 50px;
-
 }
-
 
 
 .flex-nav ul{
@@ -74,11 +71,11 @@ h1{
 header h1{
     position: absolute;
     left: 40px;
-
 }
 
 footer{
     max-width: 1000px;
+    font-family: Raleway, sans-serif;
     height: 50px;
     margin: auto;
     margin-top: 20px;
@@ -87,7 +84,6 @@ footer{
     color: grey;
     font-size: 0.75em;
     margin-top: 20px;
-
 }
 
 .wrapper{
@@ -104,6 +100,7 @@ footer{
 
 .box1{
     width: 100%;
+    font-family: Raleway, sans-serif;
 }
 
 
@@ -111,12 +108,14 @@ footer{
     text-align: center;
     font-weight: normal;
     word-spacing: 0.1em;
+    padding: 10px 20px;
 }
 
 button{
     border-radius: 15px;
     background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
     border: 1px solid rgb(255, 174, 0);
+    font-family: Raleway, sans-serif;
     font-weight: bold;
     color: white;
     display: inline-block;
@@ -146,10 +145,19 @@ button{
     color: rgb(255, 174, 0);
 }
 
+#aboutme{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
 .box2{
     width: 300px;
     flex: 33,3%;
     height: 200px;
+    font-family: Raleway, sans-serif;
     border-right: 3px dotted rgb(255, 174, 0);
     box-sizing: border-box;
     position: relative;
@@ -160,6 +168,7 @@ button{
     width: 700px;
     flex: 66,6%;
     height: 200px;
+    font-family: Raleway, sans-serif;
     line-height: 172.35%;
     box-sizing: border-box;
     position: relative; 
@@ -174,31 +183,44 @@ button{
     left: 20px;
 }
 
+#skills{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
 .box4{
-    width: 300px;
-    height: 200px;
+    width: 333px;
+    height: 220px;
+    flex: 33,3%;
+    font-family: Raleway, sans-serif;
     box-sizing: border-box;
     position: relative;
     border-right: 3px dotted rgb(255, 174, 0);
 }
 
 .box5{
-    width: 300px;
-    height: 200px;
+    width: 333px;
+    height: 220px;
+    flex: 33,3%;
+    font-family: Raleway, sans-serif;
     box-sizing: border-box;
     position: relative;
     border-right: 3px dotted rgb(255, 174, 0);
 }
 
 .box6{
-    width: 300px;
-    height: 200px;
+    width: 333px;
+    height: 220px;
+    flex: 33,3%;
+    font-family: Raleway, sans-serif;
     box-sizing: border-box;
     position: relative;
 }
 
-.iconskills
-{
+.imgskills{
     width: 128px;
     height: 128px;
     position: absolute;
@@ -206,13 +228,23 @@ button{
     top: 10px;
 }
 
+
+
 .pskills{
     position: absolute;
-    bottom: 10px;
-    left: 20px;
+    bottom: 5px;
+    left: 80px;
     color: rgb(255, 174, 0);
     font-weight: bold;
     font-size: 1.25em;
+}
+
+#portfolio{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
 }
 
 .projects{
@@ -225,11 +257,13 @@ button{
 
 .projects h4{
     font-size: 1.4em;
+    font-family: Raleway, sans-serif;
     margin-bottom: 0;
 }
 
 .projects p{
     font-size: 0.8em;
+    font-family: Raleway, sans-serif;
     margin-top: 5px;
 }
 
@@ -250,6 +284,7 @@ button{
 .box7{
     width: 333px;
     height: 230px;
+    flex: 33,3%;
     box-sizing: border-box;
     position: relative;
 }
@@ -257,6 +292,7 @@ button{
 .box8{
     width: 333px;
     height: 230px;
+    flex: 33,3%;
     box-sizing: border-box;
 }
 
@@ -264,25 +300,37 @@ button{
 .box9{
     width: 333px;
     height: 230px;
+    flex: 33,3%;
     box-sizing: border-box;
 }
 
 .box10{
     width: 333px;
     height: 230px;
+    flex: 33,3%;
     box-sizing: border-box;
 }
 
 .box11{
     width: 333px;
     height: 230px;
+    flex: 33,3%;
     box-sizing: border-box;
 }
 
 .box12{
     width: 333px;
     height: 230px;
+    flex: 33,3%;
     box-sizing: border-box;
+}
+
+#contact{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
 }
 
 .box13{
@@ -290,6 +338,7 @@ button{
    height: 450px;
    box-sizing: border-box;
    background: rgb(255, 174, 0);
+   font-family: Raleway, sans-serif;
    border-radius: 60px;
    position: relative;
 }
@@ -297,6 +346,7 @@ button{
 .box14{
     width: 600px;
     height: 450px;
+    font-family: Raleway, sans-serif;
     box-sizing: border-box;
     margin-top: 20px;
     position: relative;
@@ -304,7 +354,7 @@ button{
 
 .aboutme{
     color: black;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: bold;
     line-height: 160.86%;
 }
@@ -321,6 +371,7 @@ img:hover:not(.nothover){
 
 h3{
     padding-left: 20px;
+    font-family: Raleway, sans-serif;
 }
 
 input{
@@ -335,7 +386,7 @@ input{
 }
 
 input[type=text]:focus{
-    border: 2px solid rgb(255, 214, 0);
+    border: 0.5px solid rgb(255, 214, 0);
     outline: none;
 }
 
@@ -369,7 +420,7 @@ textarea{
 }
 
 textarea:focus{
-    border: 2px solid rgb(255, 214, 0);
+    border: 0.5px solid rgb(255, 214, 0);
     outline: none;
 
 }
@@ -383,6 +434,7 @@ textarea:focus{
 .description{
     position: absolute;
     color: white;
+    font-family: Raleway, sans-serif;
     line-height: 150%;
     font-size: 1.1em;
     left: 40px;
@@ -393,6 +445,7 @@ textarea:focus{
     left: 40px;
     bottom: 40px;
     color: white;
+    font-family: Raleway, sans-serif;
     line-height: 150%;
     font-size: 1.1em;
     position: absolute;
@@ -463,21 +516,27 @@ textarea:focus{
     .box4, .box5, .box6{
         flex: 100%;
         border: none;
+    }
 }
 
 
 
-@media all and (max-width: 500px){
+@media all and (max-width: 480px){
+    .flex-nav ul{
+        flex-wrap: wrap;
+    }
+
     .flex-nav li{
         flex-basis: 100%;
     }
 
-    .box{
-        flex-basis: 100%;
-    }
 
     .box2, .box4, .box5{
         border: none;
+    }
+
+    .box13, .box14{
+        flex-basis: 100%;
     }
 
 }
