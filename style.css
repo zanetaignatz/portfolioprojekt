@@ -10,7 +10,6 @@ body{
 
 .flex-nav a{
     color: rgb(20, 19, 19);
-    font-family: Raleway, sans-serif;
     font-weight: 100;
     letter-spacing: 2px;
     text-decoration: none;
@@ -38,13 +37,11 @@ body{
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    
+    display: flex; 
 }
 
 .flex-nav li{
    flex: 3;
-   
 }
 
 header{
@@ -59,13 +56,11 @@ header{
 }
 
 h1{
-    font-family: Raleway;
     color: rgb(243, 233, 233);
     font-size: 2em;
     font-weight: bold;
     letter-spacing: 0.2em;
     text-shadow: 1px 1px grey;
-   
 }
 
 header h1{
@@ -75,7 +70,6 @@ header h1{
 
 footer{
     max-width: 1000px;
-    font-family: Raleway, sans-serif;
     height: 50px;
     margin: auto;
     margin-top: 20px;
@@ -86,12 +80,8 @@ footer{
     margin-top: 20px;
 }
 
-.wrapper{
+.main{
     max-width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    justify-content: center;
 }
 
 .box{
@@ -100,7 +90,6 @@ footer{
 
 .box1{
     width: 100%;
-    font-family: Raleway, sans-serif;
 }
 
 
@@ -115,7 +104,6 @@ button{
     border-radius: 15px;
     background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
     border: 1px solid rgb(255, 174, 0);
-    font-family: Raleway, sans-serif;
     font-weight: bold;
     color: white;
     display: inline-block;
@@ -155,33 +143,28 @@ button{
 
 .box2{
     width: 300px;
-    flex: 33,3%;
-    height: 200px;
-    font-family: Raleway, sans-serif;
+    color: rgb(255, 174, 0);
     border-right: 3px dotted rgb(255, 174, 0);
     box-sizing: border-box;
-    position: relative;
     background: #FAF9F9;
+    padding: 36px 25px;
 }
 
 .box3{
     width: 700px;
-    flex: 66,6%;
-    height: 200px;
-    font-family: Raleway, sans-serif;
+    color: rgb(255, 174, 0);
     line-height: 172.35%;
     box-sizing: border-box;
-    position: relative; 
     background: #FAF9F9;
+    padding: 30px 25px;
 }
 
-.me
-{
-    position: absolute;
-    color: rgb(255, 174, 0);
-    top: 20px;
-    left: 20px;
+.aboutme{
+    color: black;
+    font-weight: bold;
+    line-height: 160.86%;
 }
+
 
 #skills{
     max-width: 1000px;
@@ -193,47 +176,31 @@ button{
 
 .box4{
     width: 333px;
-    height: 220px;
-    flex: 33,3%;
-    font-family: Raleway, sans-serif;
     box-sizing: border-box;
-    position: relative;
     border-right: 3px dotted rgb(255, 174, 0);
 }
 
 .box5{
     width: 333px;
-    height: 220px;
-    flex: 33,3%;
-    font-family: Raleway, sans-serif;
     box-sizing: border-box;
-    position: relative;
     border-right: 3px dotted rgb(255, 174, 0);
 }
 
 .box6{
     width: 333px;
-    height: 220px;
-    flex: 33,3%;
-    font-family: Raleway, sans-serif;
     box-sizing: border-box;
-    position: relative;
 }
 
 .imgskills{
+    display: block;
+    margin: 0 auto;
     width: 128px;
     height: 128px;
-    position: absolute;
-    left: 70px;
-    top: 10px;
+    padding-top: 15px;
 }
 
-
-
 .pskills{
-    position: absolute;
-    bottom: 5px;
-    left: 80px;
+    text-align: center;
     color: rgb(255, 174, 0);
     font-weight: bold;
     font-size: 1.25em;
@@ -257,13 +224,11 @@ button{
 
 .projects h4{
     font-size: 1.4em;
-    font-family: Raleway, sans-serif;
     margin-bottom: 0;
 }
 
 .projects p{
     font-size: 0.8em;
-    font-family: Raleway, sans-serif;
     margin-top: 5px;
 }
 
@@ -284,7 +249,6 @@ button{
 .box7{
     width: 333px;
     height: 230px;
-    flex: 33,3%;
     box-sizing: border-box;
     position: relative;
 }
@@ -292,36 +256,30 @@ button{
 .box8{
     width: 333px;
     height: 230px;
-    flex: 33,3%;
     box-sizing: border-box;
 }
-
 
 .box9{
     width: 333px;
     height: 230px;
-    flex: 33,3%;
     box-sizing: border-box;
 }
 
 .box10{
     width: 333px;
     height: 230px;
-    flex: 33,3%;
     box-sizing: border-box;
 }
 
 .box11{
     width: 333px;
     height: 230px;
-    flex: 33,3%;
     box-sizing: border-box;
 }
 
 .box12{
     width: 333px;
     height: 230px;
-    flex: 33,3%;
     box-sizing: border-box;
 }
 
@@ -330,33 +288,50 @@ button{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .box13{
    width: 400px;
-   height: 450px;
    box-sizing: border-box;
    background: rgb(255, 174, 0);
-   font-family: Raleway, sans-serif;
    border-radius: 60px;
-   position: relative;
+}
+
+.description{
+    color: white;
+    line-height: 150%;
+    font-size: 1.1em;
+    padding: 10px 40px;
+}
+
+.social{
+    word-spacing: 30px;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 20px 40px 0px 40px;
+}
+
+.adres{
+    color: white;
+    line-height: 150%;
+    font-size: 1.1em;
+    padding: 20px 40px 30px 40px;
+}
+
+.icon{
+    color: white;
+}
+
+.fa:hover
+{
+    opacity: 0.8;
 }
 
 .box14{
-    width: 600px;
-    height: 450px;
-    font-family: Raleway, sans-serif;
+    width: 500px;
     box-sizing: border-box;
     margin-top: 20px;
-    position: relative;
- }
-
-.aboutme{
-    color: black;
-    font-family: Raleway, sans-serif;
-    font-weight: bold;
-    line-height: 160.86%;
 }
 
 img{
@@ -371,14 +346,13 @@ img:hover:not(.nothover){
 
 h3{
     padding-left: 20px;
-    font-family: Raleway, sans-serif;
 }
 
 input{
-    padding: 10px, 0;
+    font-family: Raleway, sans-serif;
     margin-left: 20px;
     width: 80%;
-    height: 30px;
+    height: 40px;
     border-radius: 15px;
     background: #FAFAFF;
     border: 0.5px outset;
@@ -391,11 +365,11 @@ input[type=text]:focus{
 }
 
 input[type="submit"]{
-    width: 20%;
+    width: 100px;
     background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
-    position: absolute;
-    bottom: 20px;
-    right: 80px;
+    margin-top: 15px;
+    margin-left: 290px;
+    text-align: center;
     border: 1px solid rgb(255, 174, 0);
     color: white;
     font-weight: bold;
@@ -411,18 +385,17 @@ input[type="submit"]:hover{
 }
 
 textarea{
+    font-family: Raleway, sans-serif;
     margin-left: 20px;
-    left: 20px;
+    padding-left: 20px;
     width: 80%;
-    height: 80px;
+    height: 100px;
     border-radius: 15px;
-    text-indent: 15px;
 }
 
 textarea:focus{
     border: 0.5px solid rgb(255, 214, 0);
     outline: none;
-
 }
 
 .boxa{
@@ -431,63 +404,46 @@ textarea:focus{
     padding: 20px 0px 20px 50px;
   
 }
-.description{
-    position: absolute;
-    color: white;
-    font-family: Raleway, sans-serif;
-    line-height: 150%;
-    font-size: 1.1em;
-    left: 40px;
-    top: 20px;
-}
-
-.adres{
-    left: 40px;
-    bottom: 40px;
-    color: white;
-    font-family: Raleway, sans-serif;
-    line-height: 150%;
-    font-size: 1.1em;
-    position: absolute;
-
-}
-
-.social{
-    left: 40px;
-    bottom: 200px;
-    word-spacing: 30px;
-    font-size: 1.2em;
-    position: absolute;
-    display: inline-block;
-}
-
-.icon{
-    color: white;
-}
-
-.fa:hover
-{
-    opacity: 0.8;
-}
 
 
-@media all and (max-width: 1100px){
-    .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12{
-    flex-basis: 33%;
+
+@media all and (max-width: 1024px){
+    .box2, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12{
+        flex-basis: 33%;
+    }
+
+    .box3{
+        flex-basis: 66%;
     }
 
     .box13{
-        flex: 40%;
+        flex-basis: 40%;
     }
 
     .box14{
-        flex: 60%;
+        flex-basis: 60%;
+    }
+
+}
+
+@media all and (max-width: 888px){
+
+    .box2{
+        flex-basis: 100%;
+        border: none;
+        padding-bottom: 15px;
+        padding-left: 50px;
+    }
+
+    .box3{
+        flex-basis: 100%;
+        padding-top: 5px;
     }
 
 }
 
 
-@media all and (max-width: 800px){
+@media all and (max-width: 768px){
     .flex-nav ul{
         flex-wrap: wrap;
     }
@@ -496,29 +452,26 @@ textarea:focus{
         flex: 1 1 50%;
     }
 
-    .box7, .box8, .box9, .box10, .box11, .box12{
+    .box4, .box5, .box7, .box8, .box9, .box10, .box11, .box12{
         flex-basis: 50%;
     }
 
-    .box4, .box5, .box6{
-        flex: 33%;
+    .box6{
+        flex-basis: 100%;
+    }
+
+    .box4, .box5{
         border: none;
     }
 
 }
 
 
-
-@media all and (max-width: 600px){
+@media all and (max-width: 670px){
     .box13, .box14{
-        flex: 100%
-    }
-    .box4, .box5, .box6{
-        flex: 100%;
-        border: none;
+        flex-basis: 100%;
     }
 }
-
 
 
 @media all and (max-width: 480px){
@@ -530,13 +483,7 @@ textarea:focus{
         flex-basis: 100%;
     }
 
-
-    .box2, .box4, .box5{
-        border: none;
-    }
-
-    .box13, .box14{
+    .box{
         flex-basis: 100%;
     }
-
 }
